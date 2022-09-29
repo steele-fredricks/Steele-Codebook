@@ -1,0 +1,44 @@
+---
+title: "Codebook"
+output: html_document
+date: "2022-09-22"
+author: Steele Fredricks 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Data set
+
+Immunization expenditure data
+
+## Description
+
+Immunization expenditure data provide detailed analyses on country-level expenditure and financial flows for immunization. These data sections are collected annually through the WHO/UNICEF joint reporting mechanism. These values show the relationship between the amount of money funded by a country for immunization and the population who is properly immunized.
+
+## Format
+
+ISO_3\_CODE: Country name
+
+WHO_REGION: World Health Orginization Region
+
+YEAR: 2017-2021
+
+INCODE: Second half of postal code
+
+DESCRIPTION: Questions about the country and goverment and how they relate with immunizations
+
+INDSORT: Value
+
+## Overview
+
+The Data set includes values based of off questions asked by the World Health Orginization to understand Govermental Policies on Immunizations and how they are assesed by region.
+
+## Source
+
+World Health Orginization (WHO) <https://www.who.int/>
+
+```{r}
+
+```
